@@ -2,6 +2,7 @@ import GlobalProviders from "@/components/GlobalProviders";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { cookies } from "next/headers";
+import "@ant-design/v5-patch-for-react-19";
 import "./globals.css";
 
 const geistSans = Geist({
